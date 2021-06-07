@@ -8,7 +8,7 @@ public class CorparateCustomer extends Customer{
     public String aboutCustomer() {
         return "Hoşgeldiniz\t : " + getAdSoyad()+
                 "\n(Kurumsal Müşteri)"+
-                "\n TC Kimlik numaranız='" + getTcNo() +
+                "\n TC Kimlik numaranız=" + getTcNo() +
                 "\n Şirketinizin Adı =" + sirketAdi+
                 "\n Hesap Bakiyeniz =" + getHesapBakiyesi();
     }
