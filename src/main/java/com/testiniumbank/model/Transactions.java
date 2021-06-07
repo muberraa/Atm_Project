@@ -17,7 +17,7 @@ public class Transactions {
     public void deposit(Customer customer){
         System.out.println("Yatırmak istediğiniz miktarı giriniz :");
         int miktar2 = scan.nextInt();
-        int yeniBakiye = customer.setHesapBakiyesi(customer.getHesapBakiyesi()-miktar2);
+        int yeniBakiye = customer.setHesapBakiyesi(customer.getHesapBakiyesi()+miktar2);
         System.out.println("Yeni Bakiyeniz :"+ customer.getHesapBakiyesi());
 
 
