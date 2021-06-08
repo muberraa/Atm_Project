@@ -9,8 +9,13 @@ public class Transactions {
     public void withDraw(Customer customer){
         System.out.println("Çekmek istediğiniz miktarı giriniz :");
         int miktar1 = scan.nextInt();
-        int yeniBakiye = customer.setHesapBakiyesi(customer.getHesapBakiyesi()-miktar1);
-        System.out.println("Yeni Bakiyeniz :"+ customer.getHesapBakiyesi());
+        if (customer.getHesapBakiyesi()<= miktar1){
+            System.out.println("Bakiyeniz Yetersiz");
+        }
+        else {
+            int yeniBakiye = customer.setHesapBakiyesi(customer.getHesapBakiyesi() - miktar1);
+            System.out.println("Yeni Bakiyeniz :" + customer.getHesapBakiyesi());
+        }
 
 
     }

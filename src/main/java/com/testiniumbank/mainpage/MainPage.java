@@ -65,7 +65,7 @@ public class MainPage {
         Customer hesap = musteriler.get(mNo);
         System.out.println(hesap.aboutCustomer());
 
-        System.out.println("İşlem Tipi Seçiniz: " + "\nPara Yatırmak için (1)" + "\nPara Çekmek için (2)) " + "\nÇıkmak için (3)");
+        System.out.println("\nİşlem Tipi Seçiniz: " + "\nPara Yatırmak için (1)" + "\nPara Çekmek için (2)) " + "\nÇıkmak için (3)");
         int islemNo = no.nextInt();
 
         if (islemNo == 1){
