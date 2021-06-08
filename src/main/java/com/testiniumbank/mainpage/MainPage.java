@@ -54,8 +54,8 @@ public class MainPage {
         musteriler.put(c1.getMusteriNo(),c1);
         musteriler.put(c2.getMusteriNo(),c2);
         musteriler.put(c3.getMusteriNo(),c3);
-        musteriler.put(c3.getMusteriNo(),c4);
-        musteriler.put(c4.getMusteriNo(),c5);
+        musteriler.put(c4.getMusteriNo(),c4);
+        musteriler.put(c5.getMusteriNo(),c5);
 
         Scanner no = new Scanner(System.in);
 
